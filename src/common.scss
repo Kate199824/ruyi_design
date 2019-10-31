@@ -1,0 +1,31 @@
+$default-purple: #3f2d57;
+$default-yellow: #f5eb66;
+$default-white: #e2e2e2;
+$default-page-white: #fff;
+$default-font-color: rgba(0, 0, 0, 0.65);
+$default-font-color-darker: rgba(0, 0, 0, 0.75);
+
+$default-shadow: 0 5px 35px rgba(32, 30, 30, 0.1);
+$default-shadow_heavy: 0 5px 35px rgba(32, 30, 30, 0.32);
+$default-shadow-active: 0 10px 55px rgba(90, 88, 88, 0.45);
+
+$header-bg-color: rgba(
+  $color: #f7f5f5,
+  $alpha: 0.7
+);
+
+$default-page-padding: 120px;
+
+$default-font-family: 'Microsoft Yahei', 'STXihei';
+$default-font-family-cn: 'STXihei';
+
+////
+.ry-split {
+  display: flex;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}

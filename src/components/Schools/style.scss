@@ -1,0 +1,89 @@
+@import '../../common.scss';
+@import '../../service/ossURL.scss';
+.schools_body {
+  background-image: $bg_mei;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0px;
+
+  .title {
+    font-weight: 700;
+    font-size: 28px;
+    color: #747272b0;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    .en {
+      font-size: 20px;
+      letter-spacing: 6px;
+    }
+  }
+  .main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .art {
+      flex-grow: 1;
+      .oneline {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .university {
+      flex-grow: 1;
+      .oneline {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .museum {
+      flex-grow: 1;
+      .oneline {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  .split {
+    width: 2px;
+    background-color: #adabab;
+    height: 170px;
+  }
+}
+
+.school_icon {
+  width: 120px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: 6s fade infinite;
+  img {
+    width: 85px;
+    max-height: 85px;
+  }
+  p {
+    font-size: 8px;
+    text-align: center;
+    color: #505050;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.2;
+  }
+  10% {
+    opacity: 0.4;
+  }
+  25% {
+    opacity: 0.75;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
