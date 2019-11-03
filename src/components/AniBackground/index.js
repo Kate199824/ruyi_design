@@ -3,18 +3,12 @@ import './style.scss';
 
 export default class AniBackground extends Component {
   componentDidMount() {
-    const ele = document.getElementById('abg_container');
-    const ele2 = document.getElementById('abg_text_container');
+  //  const ele = document.getElementById('abg_container');
+    const ele = document.getElementById('abg_text_container');
     window.addEventListener('scroll', () => {
       const percent = 100 - window.scrollY / 10;
       ele.style.width = percent + '%';
-      // console.log(percent);
-      ele.style.opacity = percent / 150;
-      if (percent > 90) {
-        ele2.style.opacity = 1;
-      } else {
-        ele2.style.opacity = percent / 120;
-      }
+      ele.style.opacity = percent / 90;
     });
   }
   render() {

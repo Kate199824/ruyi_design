@@ -1,0 +1,18 @@
+@import '../../common.scss';
+
+.ry-four-course {
+  display: flex;
+  justify-content: center;
+  .ry-four-course-item {
+    max-width: 180px;
+    margin: 15px;
+    cursor: pointer;
+    img {
+      width: 100%;
+      box-shadow: $default-shadow;
+    }
+    img:hover {
+      box-shadow: $default-shadow-active-purple;
+    }
+  }
+}

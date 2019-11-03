@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { museum, university, artUniversity } from '../../service/jsData/home';
+import { museum, university, artUniversity } from '../../service/jsData/schools';
 import './style.scss';
 
 function Icon(props) {

@@ -1,11 +1,5 @@
 @import '~antd/dist/antd.css';
 
-a:link {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-}
 body {
   min-width: 1000px;
 }

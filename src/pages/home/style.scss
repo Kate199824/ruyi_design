@@ -1,0 +1,24 @@
+@import '../../common.scss';
+
+.home-body {
+  .ruyi-title {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    img {
+      max-width: 380px;
+    }
+  }
+
+  .course-title {
+    margin: 5px 100px 24px 100px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgba(121, 121, 121, 0.18);
+
+    h1 {
+      color: $default-purple;
+      font-size: 38px;
+    }
+  }
+}
