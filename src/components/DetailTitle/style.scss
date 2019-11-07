@@ -1,0 +1,47 @@
+@import '../../common.scss';
+
+.ry-detail-title {
+  display: flex;
+  justify-content: center;
+  padding: 80px 40px 0 0;
+  margin: 0 0 64px 0;
+  .left {
+    width: 475px;
+    margin: 0 64px 0 0;
+    img {
+      width: 100%;
+    }
+  }
+  .right {
+    h2 {
+      color: $default-purple;
+      font-size: 24px;
+      padding: 20px 0;
+    }
+    p {
+      color: $default-purple;
+      font-size: 14px;
+      line-height: 14px;
+    }
+    button {
+      color: white;
+      background-color: $default-purple;
+      padding: 6px 12px;
+      margin: 18px 0 16px 0;
+      font-size: 12px;
+      border-radius: 8px;
+      border: 2px rgba(170, 6, 224, 0.562) inset;
+      box-shadow: $default-shadow;
+      cursor: pointer;
+    }
+    button:hover {
+      box-shadow: $default-shadow_heavy;
+    }
+    div {
+      width: 120px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

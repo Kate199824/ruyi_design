@@ -1,0 +1,49 @@
+@import '../../common.scss';
+@import '../../service/cssData/courses.scss';
+
+.ry-course-list {
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .one-line {
+    display: flex;
+    justify-content: center;
+    .course-item {
+      width: 220px;
+      cursor: pointer;
+      margin: 32px;
+      img {
+        width: 100%;
+        box-shadow: $default-shadow-heavy;
+      }
+      img:hover {
+        transition: all 0.3s;
+        transform: scale(1.2, 1.2);
+        box-shadow: $default-shadow-active;
+      }
+    }
+  }
+}
+
+// different bg for different page type
+.page_name_hand {
+  background-image: $hand;
+}
+
+.page_name_exam {
+  background-image: $exam;
+}
+
+.page_name_transfer {
+  background-image: $transfer;
+}
+
+.page_name_software {
+  background-image: $software;
+}

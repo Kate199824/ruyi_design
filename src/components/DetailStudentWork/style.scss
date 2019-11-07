@@ -1,0 +1,61 @@
+@import '../../common.scss';
+
+.detail-student-work-carousel {
+  height: 675px;
+  background-color: rgba(255, 255, 255, 0.39);
+
+  .title {
+    display: flex;
+    padding: 20px 0 0 0;
+    div {
+      width: 8px;
+      height: 26px;
+      background-color: $default-purple-transparent;
+    }
+    h4 {
+      color: rgb(134, 134, 134);
+      margin: 0 0 0 10px;
+      font-size: 16px;
+    }
+  }
+
+  .content {
+    width: 100%;
+    padding: 20px 0;
+    .one-page {
+      .one-row {
+        display: flex;
+        justify-content: center;
+        .one-picture {
+          width: 192px;
+          margin: 20px;
+          box-shadow: $default-shadow;
+          img {
+            width: 100%;
+          }
+        }
+        .one-picture:hover {
+          box-shadow: $default-shadow-active;
+        }
+      }
+    }
+  }
+
+  .ant-carousel .slick-dots li button {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 1px rgba(97, 97, 97, 0.644) solid;
+    margin: 0 5px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    bottom: -40px;
+  }
+  .ant-carousel .slick-dots li.slick-active button {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background: rgba(255, 255, 255, 0.829);
+  }
+}

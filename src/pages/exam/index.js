@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import AniBackground from '../../components/AniBackground';
+import CourseList from '../../components/CourseList';
 import { titleList } from '../../service/jsData/title';
 
 import './style.scss';
@@ -15,6 +16,7 @@ export default class Exam extends Component {
       <div>
        <AniBackground bg_url={bg_url} text_url={text_url} />
        <div className="ry-split">— 考研快题手绘 —</div>
+       <CourseList page_name={page_name}/>
       </div>
     )
   }

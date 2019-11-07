@@ -1,0 +1,25 @@
+@import './courses.scss';
+
+.use-detail-bg {
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  padding: 80px 60px;
+}
+
+.detail_page_name_hand {
+  background-image: $hand_bg;
+}
+
+.detail_page_name_exam {
+  background-image: $exam_bg;
+}
+
+.detail_page_name_transfer {
+  background-image: $transfer_bg;
+}
+
+.detail_page_name_software {
+  background-image: $software_bg;
+}

@@ -22,20 +22,20 @@ class Header extends Component {
   render() {
     const { toTop } = this.state;
     const list1 = [
-      { name: '建筑设计手绘班', link: '/手绘/建筑' },
-      { name: '风园设计手绘班', link: '/手绘/风园' },
-      { name: '室内设计手绘班', link: '/手绘/室内' },
-      { name: '景观设计手绘班', link: '/手绘/景观' },
-      { name: '城规设计手绘班', link: '/手绘/城规' },
-      { name: '平面设计手绘班', link: '/手绘/平面' }
+      { name: '建筑设计手绘班', link: '/手绘/建筑设计手绘班' },
+      { name: '风园设计手绘班', link: '/手绘/风园设计手绘班' },
+      { name: '室内设计手绘班', link: '/手绘/室内设计手绘班' },
+      { name: '景观设计手绘班', link: '/手绘/景观设计手绘班' },
+      { name: '城规设计手绘班', link: '/手绘/城规设计手绘班' },
+      { name: '平面设计手绘班', link: '/手绘/平面设计手绘班' }
     ];
     const list2 = [
-      { name: '建筑快题手绘班', link: '/考研/建筑' },
-      { name: '风园快题手绘班', link: '/考研/风园' },
-      { name: '室内快题手绘班', link: '/考研/室内' },
-      { name: '景观快题手绘班', link: '/考研/景观' },
-      { name: '城规快题手绘班', link: '/考研/城规' },
-      { name: '环艺快题手绘班', link: '/考研/环艺' }
+      { name: '建筑快题手绘班', link: '/考研/建筑快题手绘班' },
+      { name: '风园快题手绘班', link: '/考研/风园快题手绘班' },
+      { name: '室内快题手绘班', link: '/考研/室内快题手绘班' },
+      { name: '景观快题手绘班', link: '/考研/景观快题手绘班' },
+      { name: '城规快题手绘班', link: '/考研/城规快题手绘班' },
+      { name: '环艺快题手绘班', link: '/考研/环艺快题手绘班' }
     ];
 
     const classname = toTop ? 'ry-header ry-header__top' : 'ry-header';

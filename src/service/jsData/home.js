@@ -17,6 +17,10 @@ export const resultsTitle = "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/
 
 export const ruyi_results = "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/ruyi_results.png";
 
+export const home_rank_bg = "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/rank_bg.png";
+
+export const home_why_bg = "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/why_bg.png";
+
 export const resultsContentList = [
   [
     "刘宇阳 南京林业大学风景园林转专业考试成功",
@@ -34,4 +38,32 @@ export const resultsContentList = [
     "高玉茜 南京林业大学城市规划转专业考试成功",
     "戴思彤 南京林业大学风景园林转专业考试成功"
   ]
+]
+
+export const iconBarList = [
+  {
+    url: "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/iconBar/1.png",
+    text1: "1v1授课",
+    text2: "小班制上课方式"
+  },
+  {
+    url: "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/iconBar/2.png",
+    text1: "师资力量",
+    text2: "顶级教室团队"
+  },
+  {
+    url: "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/iconBar/3.png",
+    text1: "私人定制",
+    text2: "专属定制课程"
+  },
+  {
+    url: "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/iconBar/4.png",
+    text1: "循环授课",
+    text2: "随到随学"
+  },
+  {
+    url: "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/iconBar/5.png",
+    text1: "环境氛围",
+    text2: "数字信息化设备"
+  }
 ]
