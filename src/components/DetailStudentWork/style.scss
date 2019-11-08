@@ -29,13 +29,16 @@
         .one-picture {
           width: 192px;
           margin: 20px;
-          box-shadow: $default-shadow;
           img {
             width: 100%;
+            box-shadow: $default-shadow;
+            cursor: pointer;
           }
-        }
-        .one-picture:hover {
-          box-shadow: $default-shadow-active;
+          img:hover {
+            transition: all 0.3s;
+            transform: scale(1.25, 1.25);
+            box-shadow: $default-shadow-active;
+          }
         }
       }
     }
