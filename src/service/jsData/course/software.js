@@ -36,12 +36,45 @@ export const courseInfoList = {
   },
 }
 
+const mockScheduleList = [
+  {
+    name: "课程模块一",
+    subject: "软件设计基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块二",
+    subject: "软件设计基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块三",
+    subject: "软件设计基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块四",
+    subject: "软件设计基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块五",
+    subject: "软件设计基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块六",
+    subject: "软件设计基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  }
+]
+
 export const courseScheduleList = {
-  建筑设计软件班: "",
-  景观设计软件班: "",
-  室内设计软件班: "",
-  平面设计软件班: "",
-  动画设计软件班: ""
+  建筑设计软件班: mockScheduleList,
+  景观设计软件班: mockScheduleList,
+  室内设计软件班: mockScheduleList,
+  平面设计软件班: mockScheduleList,
+  动画设计软件班: mockScheduleList
 }
 
 const mockList = [

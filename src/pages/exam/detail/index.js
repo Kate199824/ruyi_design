@@ -24,7 +24,7 @@ export default class ExamDetail extends Component {
        <AniBackground bg_url={bg_url} text_url={text_url} />
        <div className="ry-split">— {detail} —</div>
        <DetailTitle detail={detail} imgUrl={imgList[detail]} codeUrl={code_img} coursePrice={courseInfoList[detail].coursePrice} courseNumber={courseInfoList[detail].courseNumber} />
-       <CourseScheduleList />
+       <CourseScheduleList detail={detail}  scheduleList={courseScheduleList[detail]} />
        <div className={"use-detail-bg detail_page_name_" + page_name}> 
         <DetailStudentWork studentWorkList={courseStudentWorkList[detail]} />
        </div>

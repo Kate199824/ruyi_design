@@ -6,7 +6,6 @@
   justify-content: center;
   td {
     border: 1px solid rgba(75, 75, 75, 0.7);
-    color: $default-purple;
   }
   table {
     border: 1px solid rgba(75, 75, 75, 0.7);
@@ -23,6 +22,7 @@
         text-align: center;
         padding: 0 72px;
         line-height: 28px;
+        color: $default-purple;
       }
     }
     .one-line {
@@ -31,6 +31,7 @@
         max-width: 280px;
         overflow-wrap: break-word;
         text-align: center;
+        color: $default-purple;
       }
     }
   }

@@ -42,13 +42,46 @@ export const courseInfoList = {
   }
 }
 
+const mockScheduleList = [
+  {
+    name: "课程模块一",
+    subject: "考研基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块二",
+    subject: "考研基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块三",
+    subject: "考研基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块四",
+    subject: "考研基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块五",
+    subject: "考研基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块六",
+    subject: "考研基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  }
+]
+
 export const courseScheduleList = {
-  建筑快题手绘班: "",
-  风园快题手绘班: "",
-  室内快题手绘班: "",
-  景观快题手绘班: "",
-  城规快题手绘班: "",
-  环艺快题手绘班: "",
+  建筑快题手绘班: mockScheduleList,
+  风园快题手绘班: mockScheduleList,
+  室内快题手绘班: mockScheduleList,
+  景观快题手绘班: mockScheduleList,
+  城规快题手绘班: mockScheduleList,
+  环艺快题手绘班: mockScheduleList,
 }
 const mockList = [
   [

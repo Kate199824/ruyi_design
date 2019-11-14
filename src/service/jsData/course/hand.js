@@ -42,13 +42,46 @@ export const courseInfoList = {
   }
 }
 
+const mockScheduleList = [
+  {
+    name: "课程模块一",
+    subject: "手绘基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块二",
+    subject: "手绘基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块三",
+    subject: "手绘基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块四",
+    subject: "手绘基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块五",
+    subject: "手绘基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块六",
+    subject: "手绘基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  }
+]
+
 export const courseScheduleList = {
-  建筑设计手绘班: "",
-  风园设计手绘班: "",
-  室内设计手绘班: "",
-  景观设计手绘班: "",
-  城规设计手绘班: "",
-  平面设计手绘班: "",
+  建筑设计手绘班: mockScheduleList,
+  风园设计手绘班: mockScheduleList,
+  室内设计手绘班: mockScheduleList,
+  景观设计手绘班: mockScheduleList,
+  城规设计手绘班: mockScheduleList,
+  平面设计手绘班: mockScheduleList,
 }
 
 const mockList = [

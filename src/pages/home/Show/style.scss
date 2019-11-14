@@ -1,0 +1,63 @@
+@import "../../../common.scss";
+@import "../../../service/cssData/home.scss";
+
+.home-show {
+  background-image: $home_show_bg;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  padding: 20px 50px;
+  height: 580px;
+  h2 {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+  }
+  h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 350;
+    text-align: center;
+  }
+  .content {
+    width: 100%;
+    .one-page {
+      .one-row {
+        display: flex;
+        justify-content: center;
+        .one-picture {
+          width: 200px;
+          margin: 20px;
+          img {
+            width: 100%;
+            box-shadow: $default-shadow;
+            cursor: pointer;
+            border-radius: 10px;
+          }
+          img:hover {
+            transition: all 0.3s;
+            transform: scale(1.25, 1.25);
+            box-shadow: $default-shadow-active;
+          }
+        }
+      }
+    }
+  }
+  .ant-carousel .slick-dots li button {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 1px rgba(97, 97, 97, 0.644) solid;
+    margin: 0 5px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    bottom: -40px;
+  }
+  .ant-carousel .slick-dots li.slick-active button {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background: rgba(255, 255, 255, 0.829);
+  }
+}

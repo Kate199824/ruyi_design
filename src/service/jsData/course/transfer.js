@@ -42,13 +42,46 @@ export const courseInfoList = {
   }
 }
 
+const mockScheduleList = [
+  {
+    name: "课程模块一",
+    subject: "转专业基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块二",
+    subject: "转专业基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块三",
+    subject: "转专业基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块四",
+    subject: "转专业基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块五",
+    subject: "转专业基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  },
+  {
+    name: "课程模块六",
+    subject: "转专业基础课",
+    content: "1.基础知识点  2.专题练习   3.实战演练"
+  }
+]
+
 export const courseScheduleList = {
-  风景园林专业: "",
-  建筑专业: "",
-  城市规划专业: "",
-  环境艺术专业: "",
-  室内设计专业: "",
-  工业设计专业: "",
+  风景园林专业: mockScheduleList,
+  建筑专业: mockScheduleList,
+  城市规划专业: mockScheduleList,
+  环境艺术专业: mockScheduleList,
+  室内设计专业: mockScheduleList,
+  工业设计专业: mockScheduleList,
 }
 
 const mockList = [
