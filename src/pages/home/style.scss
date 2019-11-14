@@ -7,7 +7,7 @@
     justify-content: center;
     padding: 30px;
     img {
-      max-width: 380px;
+      max-width: 400px;
     }
   }
 
@@ -26,7 +26,38 @@
   .home-why {
     height: 400px;
     background-color: rgba(235, 235, 235, 0.486);
+    display: flex;
     .left {
+      padding: 50px 50px 0 80px;
+      width: 480px;
+      img {
+        width: 100%;
+      }
+    }
+    .right {
+      width: 680px;
+      padding: 60px 0px 0 80px;
+      h2 {
+        color: $default-purple;
+      }
+      h3 {
+        color: black;
+        margin: 0 0 24px 0;
+      }
+      h3:first-letter {
+        margin-left: 24px;
+      }
+      p {
+      }
+      p:first-letter {
+        margin-left: 24px;
+      }
+      .divider {
+        width: 40px;
+        height: 2px;
+        background-color: $default-purple;
+        margin: 16px 0 10px 0;
+      }
     }
   }
 
