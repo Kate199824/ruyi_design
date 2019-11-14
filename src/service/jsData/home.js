@@ -120,3 +120,19 @@ export const show_picture_list = [
     "http://ruyidesign-hand.oss-cn-beijing.aliyuncs.com/picture/1.png"
   ]
 ];
+
+//mock
+export const event_picture_list = [
+  [
+    "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/fourCourse/1.png",
+    "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/fourCourse/2.png",
+    "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/fourCourse/3.png",
+    "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/fourCourse/4.png"
+  ],
+  [
+    "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/fourCourse/1.png",
+    "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/fourCourse/2.png",
+    "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/fourCourse/3.png",
+    "http://ruyidesign-home.oss-cn-beijing.aliyuncs.com/fourCourse/4.png"
+  ]
+];

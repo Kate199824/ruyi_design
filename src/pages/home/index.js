@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Carousel } from "antd";
 import BigCarousel from "../../components/BigCarousel";
 import Schools from "../../components/Schools";
 import RyMap from "../../components/RyMap";
@@ -8,6 +7,7 @@ import FourCourse from "../../components/FourCourse";
 import Results from "./Results";
 import Rank from "./Rank";
 import Show from "./Show";
+import Event from "./Event";
 import {
   posterList,
   ruyiTitle,
@@ -16,7 +16,6 @@ import {
 } from "../../service/jsData/home";
 
 import "./style.scss";
-import { importDeclaration } from "@babel/types";
 
 /**
  * component for 为什么选择如一
@@ -77,14 +76,12 @@ export default class Home extends Component {
           <h1>如一手绘 · 四大课程体系</h1>
         </div>
         <FourCourse />
-        <div style={{ marginTop: 20 }}>
-          <Results />
-        </div>
+        <Results />
         <Rank />
         <Show />
         <HomeWhy />
         <HomeIconBar />
-        <div className="events">lala</div>
+        <Event />
         <Schools />
         <RyMap />
         <Bar />

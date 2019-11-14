@@ -21,6 +21,7 @@
   }
   .content {
     width: 100%;
+    position: relative;
     .one-page {
       .one-row {
         display: flex;
@@ -41,6 +42,27 @@
           }
         }
       }
+    }
+
+    .prev {
+      width: 42px;
+      height: 42px;
+      border: 42px solid;
+      border-color: transparent rgba(255, 255, 255, 0.5) transparent transparent;
+      cursor: pointer;
+      position: absolute;
+      top: 148px;
+      left: 24px;
+    }
+    .next {
+      width: 42px;
+      height: 42px;
+      border: 42px solid;
+      border-color: transparent transparent transparent rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+      position: absolute;
+      top: 148px;
+      right: 24px;
     }
   }
   .ant-carousel .slick-dots li button {

@@ -1,10 +1,11 @@
-@import '../../../common.scss';
+@import "../../../common.scss";
 
 .home-results {
   display: flex;
   justify-content: space-between;
   height: 300px;
   background-color: $default-white;
+  margin: 20px 0 0 0;
   .results-left {
     width: 45%;
     min-width: 500px;
@@ -71,7 +72,7 @@
     flex-grow: 1;
     img {
       height: 100%;
-      min-width: 100%;
+      width: 100%;
     }
   }
 }

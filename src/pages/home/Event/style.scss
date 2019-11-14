@@ -1,0 +1,66 @@
+@import "../../../common.scss";
+
+.home-event {
+  height: 320px;
+  background-color: $default-white;
+  width: 100%;
+  position: relative;
+  .one-page {
+    .one-page-content {
+      display: flex;
+      justify-content: center;
+      padding: 50px 0;
+      .one-pic {
+        width: 150px;
+        margin: 0px 16px;
+        img {
+          width: 100%;
+          box-shadow: $default-shadow;
+          cursor: pointer;
+        }
+        img:hover {
+          transition: all 0.3s;
+          transform: scale(1.1, 1.1);
+          box-shadow: $default-shadow-active;
+        }
+      }
+    }
+  }
+  .prev {
+    width: 32px;
+    height: 32px;
+    border: 32px solid;
+    border-color: transparent rgba(255, 255, 255, 0.6) transparent transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+  }
+  .next {
+    width: 32px;
+    height: 32px;
+    border: 32px solid;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    position: absolute;
+    top: 120px;
+    right: 120px;
+  }
+  .ant-carousel .slick-dots li button {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px rgba(116, 116, 116, 0.644) solid;
+    margin: 0 5px;
+    background: rgba(255, 255, 255, 0.6);
+    position: relative;
+    bottom: 0px;
+  }
+  .ant-carousel .slick-dots li.slick-active button {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background: rgba(255, 255, 255, 0.829);
+  }
+}

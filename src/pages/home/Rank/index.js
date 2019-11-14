@@ -10,6 +10,19 @@ import {
 import "./style.scss";
 
 export default class Rank extends Component {
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();
+  }
+
+  onNext = () => {
+    this.myRef.next();
+  };
+
+  onPrev = () => {
+    this.myRef.prev();
+  };
+
   render() {
     return (
       <div className="home-rank">
@@ -26,7 +39,11 @@ export default class Rank extends Component {
             <img src={home_rank_title2} />
           </div>
           <div className="content">
-            <Carousel autoplay autoplaySpeed={5000}>
+            <Carousel
+              ref={ref => (this.myRef = ref)}
+              autoplay
+              autoplaySpeed={5000}
+            >
               {rank_picture_list.map((list, index) => {
                 return (
                   <div className="one-page">
@@ -43,6 +60,8 @@ export default class Rank extends Component {
                 );
               })}
             </Carousel>
+            <div className="prev" onClick={this.onPrev} />
+            <div className="next" onClick={this.onNext} />
           </div>
         </div>
       </div>
