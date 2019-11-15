@@ -1,0 +1,95 @@
+@import "../../common.scss";
+@import "../../service/cssData/about.scss";
+
+.about-body {
+  .about-purpose {
+    padding: 56px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .left {
+      margin: 0 200px 0 0;
+      width: 200px;
+      img {
+        width: 100%;
+      }
+    }
+    .right {
+      font-family: $font-family-songti;
+      width: 300px;
+      h3 {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 16px;
+      }
+      p {
+        font-weight: bold;
+        margin-bottom: 0px;
+      }
+      p::first-letter {
+        margin: 0 0 0 20px;
+      }
+    }
+  }
+  .about-intro {
+    display: flex;
+    padding: 56px 100px;
+    align-items: center;
+    background-color: $default-white-lighter;
+    .left {
+      width: 500px;
+      margin: 0 100px 0 0;
+      flex-shrink: 0;
+      h2 {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-family: $font-family-songti;
+      }
+      h3 {
+        color: black;
+        margin: 0 0 24px 0;
+        font-family: $font-family-songti;
+        font-weight: bold;
+      }
+      h3:first-letter {
+        margin-left: 24px;
+      }
+      p {
+        font-family: $font-family-songti;
+        font-weight: bold;
+      }
+      p:first-letter {
+        margin-left: 24px;
+      }
+      .divider {
+        width: 30px;
+        height: 2px;
+        background-color: $default-purple;
+        margin: 16px 0 10px 0;
+      }
+    }
+    .right {
+      width: 360px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .about-guide {
+    background-image: $guide_bg;
+    background-size: cover;
+    background-position: 20% 60%;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h3 {
+      color: white;
+      font-family: $font-family-songti;
+      font-weight: bold;
+      font-size: 22px;
+    }
+  }
+}
