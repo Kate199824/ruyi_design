@@ -3,6 +3,7 @@ import AniBackground from "../../components/AniBackground";
 import Schools from "../../components/Schools";
 import RyMap from "../../components/RyMap";
 import Location from "./components/Location";
+import Teachers from "./components/Teachers";
 import Bar from "../../components/Bar";
 import { titleList } from "../../service/jsData/title";
 import { intro_horse, purpose_title } from "../../service/jsData/about";
@@ -77,6 +78,7 @@ export default class About extends Component {
         <Purpose />
         <Intro />
         <Guide />
+        <Teachers />
         <Schools />
         <RyMap />
         <Location />

@@ -1,0 +1,38 @@
+@import "../../../../common.scss";
+
+.about-teachers {
+  position: relative;
+  height: 380px;
+  padding: 40px 80px;
+  h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 10px 0 50px 0;
+  }
+  .content {
+    .one-item {
+    }
+  }
+  .prev {
+    width: 32px;
+    height: 32px;
+    border: 32px solid;
+    border-color: transparent $default-purple-transparent-more transparent
+      transparent;
+    cursor: pointer;
+    position: absolute;
+    left: 8px;
+    bottom: 80px;
+  }
+  .next {
+    width: 32px;
+    height: 32px;
+    border: 32px solid;
+    border-color: transparent transparent transparent
+      $default-purple-transparent-more;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    bottom: 80px;
+  }
+}

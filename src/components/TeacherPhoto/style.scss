@@ -1,0 +1,76 @@
+@import "../../common.scss";
+
+.teacher-photo {
+  position: relative;
+  width: 190px;
+  border-top-right-radius: 26px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: $default-shadow_thin;
+  .photo {
+    img {
+      width: 100%;
+    }
+  }
+  .small-hover {
+    position: absolute;
+    background-color: $default-purple-transparent-more;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    border-top-right-radius: 26px;
+    p {
+      color: white;
+      text-align: center;
+      margin: 14px 2px 0 0;
+      font-size: 15px;
+    }
+  }
+  .big-hover {
+    height: 0;
+  }
+}
+.teacher-photo:hover {
+  .small-hover {
+    animation: shrink 0.01s 1 forwards;
+  }
+  .big-hover {
+    position: absolute;
+    background-color: $default-purple-transparent-more;
+    bottom: 0;
+    width: 100%;
+    animation: grow 1s 1 forwards;
+    border-top-right-radius: 26px;
+    padding: 24px 36px;
+    .up {
+      margin-bottom: 28px;
+      text-align: center;
+      h4 {
+        color: white;
+      }
+    }
+    p {
+      color: white;
+      font-size: 12px;
+      line-height: 10px;
+    }
+  }
+}
+
+@keyframes grow {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes shrink {
+  0% {
+    height: 50px;
+  }
+  100% {
+    height: 0;
+  }
+}

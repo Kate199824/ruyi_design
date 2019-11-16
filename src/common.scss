@@ -1,5 +1,6 @@
 $default-purple: #3f2d57;
 $default-purple-transparent: #3f2d57e1;
+$default-purple-transparent-more: #3f2d57bb;
 $default-yellow: #f5eb66;
 $default-white: #e2e2e2;
 $default-white-lighter: rgba(235, 235, 235, 0.5);
@@ -11,6 +12,7 @@ $default-shadow: 0 5px 35px rgba(32, 30, 30, 0.1);
 $default-shadow_heavy: 0 5px 35px rgba(32, 30, 30, 0.32);
 $default-shadow-active: 0 10px 55px rgba(90, 88, 88, 0.45);
 $default-shadow-active-purple: 0 10px 55px #3f2d5786;
+$default-shadow_thin: 1px 2px 7px 0px rgba(32, 32, 32, 0.5);
 
 $header-bg-color: rgba(
   $color: #f7f5f5,

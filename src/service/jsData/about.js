@@ -18,3 +18,6 @@ export const intro_horse =
 
 export const purpose_title =
   "http://ruyidesign-about.oss-cn-beijing.aliyuncs.com/purpose_title.png";
+
+//mock
+export const teacherList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
