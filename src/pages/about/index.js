@@ -7,7 +7,11 @@ import Teachers from "./components/Teachers";
 import Bar from "../../components/Bar";
 import FourCourse from "../../components/FourCourse";
 import { titleList } from "../../service/jsData/title";
-import { intro_horse, purpose_title } from "../../service/jsData/about";
+import {
+  intro_horse,
+  purpose_title,
+  environmentList
+} from "../../service/jsData/about";
 
 import "./style.scss";
 
@@ -112,6 +116,31 @@ function Divider(props) {
   );
 }
 
+function Environment() {
+  return (
+    <div className="about-environment">
+      <div className="one-line">
+        {environmentList.slice(0, 4).map(item => {
+          return (
+            <div key={item}>
+              <img src={item} alt="" />
+            </div>
+          );
+        })}
+      </div>
+      <div className="one-line">
+        {environmentList.slice(4, 8).map(item => {
+          return (
+            <div key={item}>
+              <img src={item} alt="" />
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 export default class About extends Component {
   render() {
     return (
@@ -124,6 +153,7 @@ export default class About extends Component {
         <Divider />
         <Teachers />
         <Divider text={"工作室环境"} />
+        <Environment />
         <Divider text={"班级设置"} />
         <FourCourse />
         <Schools />

@@ -19,5 +19,16 @@ export const intro_horse =
 export const purpose_title =
   "http://ruyidesign-about.oss-cn-beijing.aliyuncs.com/purpose_title.png";
 
+export const environmentList = [
+  "http://ruyidesign-about.oss-cn-beijing.aliyuncs.com/environment/1.png",
+  "http://ruyidesign-about.oss-cn-beijing.aliyuncs.com/environment/2.png",
+  "http://ruyidesign-about.oss-cn-beijing.aliyuncs.com/environment/3.png",
+  "http://ruyidesign-about.oss-cn-beijing.aliyuncs.com/environment/4.png",
+  "http://ruyidesign-about.oss-cn-beijing.aliyuncs.com/environment/5.png",
+  "http://ruyidesign-about.oss-cn-beijing.aliyuncs.com/environment/6.png",
+  "http://ruyidesign-about.oss-cn-beijing.aliyuncs.com/environment/7.png",
+  "http://ruyidesign-about.oss-cn-beijing.aliyuncs.com/environment/8.png"
+];
+
 //mock
 export const teacherList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
