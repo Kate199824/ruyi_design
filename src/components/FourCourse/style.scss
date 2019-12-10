@@ -1,18 +1,101 @@
-@import '../../common.scss';
+@import "../../common.scss";
+
+$a: 6px;
+$b: 180px;
+$time: 0.3s;
 
 .ry-four-course {
   display: flex;
   justify-content: center;
-  .ry-four-course-item {
-    max-width: 180px;
+  .coverage {
+    position: relative;
     margin: 15px;
-    cursor: pointer;
-    img {
-      width: 100%;
-      box-shadow: $default-shadow;
+    padding: $a;
+    overflow: hidden;
+    .ry-four-course-item {
+      width: 180px;
+      cursor: pointer;
+      img {
+        width: 100%;
+      }
     }
-    img:hover {
-      box-shadow: $default-shadow-active-purple;
+    .revolver {
+      z-index: 99;
+      position: absolute;
+      background-color: $default-purple;
+      border-radius: 50%;
+      overflow: hidden;
     }
+    .revolver-left {
+      left: 0px;
+      top: -$b;
+      width: $a;
+      height: $b;
+    }
+    .revolver-bottom {
+      left: -$b;
+      top: calc(100%-$a);
+      width: $b;
+      height: $a;
+    }
+    .revolver-right {
+      right: 0px;
+      top: 100%;
+      width: $a;
+      height: $b;
+    }
+    .revolver-top {
+      right: -$b;
+      top: 0px;
+      width: $b;
+      height: $a;
+    }
+  }
+  .coverage:hover {
+    .revolver-left {
+      animation: revolve-left linear $time 0s 1 forwards;
+    }
+    .revolver-bottom {
+      animation: revolve-bottom linear $time $time 1 forwards;
+    }
+    .revolver-right {
+      animation: revolve-right linear $time $time * 2 1 forwards;
+    }
+    .revolver-top {
+      animation: revolve-top linear $time $time * 3 1 forwards;
+    }
+  }
+}
+
+@keyframes revolve-left {
+  0% {
+    top: -$b;
+  }
+  100% {
+    top: 100%;
+  }
+}
+@keyframes revolve-bottom {
+  0% {
+    left: -$b;
+  }
+  100% {
+    left: 100%;
+  }
+}
+@keyframes revolve-right {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -$b;
+  }
+}
+@keyframes revolve-top {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -$b;
   }
 }

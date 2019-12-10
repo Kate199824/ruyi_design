@@ -1,4 +1,4 @@
-@import '../../common.scss';
+@import "../../common.scss";
 
 .detail-student-work-carousel {
   height: 675px;
@@ -60,5 +60,23 @@
     border-radius: 50%;
     margin: 0 5px;
     background: rgba(255, 255, 255, 0.829);
+  }
+
+  .pop-up {
+    z-index: 999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 800px;
+    .icon {
+      position: relative;
+      left: 804px;
+      top: 4px;
+    }
+    img {
+      width: 100%;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.9);
+    }
   }
 }

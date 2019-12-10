@@ -32,9 +32,12 @@
       margin: 20px 0 0 0;
       .carousel-item {
         width: 400px;
-        padding: 0 0 0 60px;
+        padding: 0px;
+
         .line {
           display: flex;
+          margin: 0 20%;
+          white-space: nowrap;
           .dot {
             width: 5px;
             height: 5px;
