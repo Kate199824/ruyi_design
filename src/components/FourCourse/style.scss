@@ -2,7 +2,7 @@
 
 $a: 6px;
 $b: 180px;
-$time: 0.3s;
+$time: 0.2s;
 
 .ry-four-course {
   display: flex;
@@ -17,6 +17,10 @@ $time: 0.3s;
       cursor: pointer;
       img {
         width: 100%;
+      }
+      img:hover {
+        transition: all 1s;
+        transform: scale(1.1, 1.1);
       }
     }
     .revolver {
@@ -34,7 +38,7 @@ $time: 0.3s;
     }
     .revolver-bottom {
       left: -$b;
-      top: calc(100%-$a);
+      top: calc(100% - 6px);
       width: $b;
       height: $a;
     }
