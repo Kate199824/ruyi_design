@@ -17,12 +17,12 @@ export const handList = [
   {
     name: "工业设计手绘班",
     url:
-      "http://ruyidesign-course.oss-cn-beijing.aliyuncs.com/hand/%E8%AF%BE%E7%A8%8B8.png"
+      "http://ruyidesign-course.oss-cn-beijing.aliyuncs.com/hand/%E8%AF%BE%E7%A8%8B7.png"
   },
   {
     name: "视觉传达手绘班",
     url:
-      "http://ruyidesign-course.oss-cn-beijing.aliyuncs.com/hand/%E8%AF%BE%E7%A8%8B7.png"
+      "http://ruyidesign-course.oss-cn-beijing.aliyuncs.com/hand/%E8%AF%BE%E7%A8%8B8.png"
   },
   {
     name: "城规设计手绘班",
@@ -50,17 +50,17 @@ export const examList = [
   {
     name: "工业快题手绘班",
     url:
-      "http://ruyidesign-course.oss-cn-beijing.aliyuncs.com/exam/%E8%AF%BE%E7%A8%8B7.png"
+      "http://ruyidesign-course.oss-cn-beijing.aliyuncs.com/exam/%E8%AF%BE%E7%A8%8B9.png"
   },
   {
     name: "视觉传达手绘班",
     url:
-      "http://ruyidesign-course.oss-cn-beijing.aliyuncs.com/exam/%E8%AF%BE%E7%A8%8B8.png"
+      "http://ruyidesign-course.oss-cn-beijing.aliyuncs.com/exam/%E8%AF%BE%E7%A8%8B10.png"
   },
   {
     name: "城市规划手绘班",
     url:
-      "http://ruyidesign-course.oss-cn-beijing.aliyuncs.com/exam/%E8%AF%BE%E7%A8%8B9.png"
+      "http://ruyidesign-course.oss-cn-beijing.aliyuncs.com/exam/%E8%AF%BE%E7%A8%8B11.png"
   }
 ];
 
